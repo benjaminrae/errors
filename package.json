@@ -1,5 +1,5 @@
 {
-  "name": "template",
+  "name": "errors",
   "version": "1.0.0",
   "description": "",
   "main": "dist/index.js",
@@ -27,7 +27,7 @@
     "prepare": "husky install"
   },
   "keywords": [],
-  "author": "",
+  "author": "Benjamin Rae <benjaminrae93@gmail.com>",
   "license": "ISC",
   "devDependencies": {
     "@commitlint/cli": "^17.6.6",
