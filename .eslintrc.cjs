@@ -22,6 +22,14 @@ module.exports = {
         '@typescript-eslint/consistent-type-definitions': 'off',
       },
     },
+    {
+      files: ['*.factory.ts'],
+      rules: {
+        '@typescript-eslint/no-extraneous-class': 'off',
+        '@typescript-eslint/naming-convention': 'off',
+        'new-cap': 'off',
+      },
+    },
   ],
   parserOptions: {
     ecmaVersion: 'latest',
